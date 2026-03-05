@@ -26,7 +26,9 @@ function GoalInput(props) {
             <View style={styles.inputContainer} >
                 <Image 
                      style={styles.Image} 
-                     source={require('../assets/splash-icon.png')} />
+                   source={require('../assets/splash-icon.png')}
+                   //  source = "some/img/tiny_logo.png"
+                     />
                 <TextInput
                     style={styles.textInput}
                     placeholder="Your course gole"
